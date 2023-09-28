@@ -35,4 +35,4 @@ app.use((error, req, res, next) => {
 });
 
 // Start serving
-app.listen(process.env.PORT || 3001, () => console.log('The server listens...'));
+app.listen(process.env.PORT || 8080, () => console.log('The server listens...'));
